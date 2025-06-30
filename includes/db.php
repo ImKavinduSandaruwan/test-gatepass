@@ -1,7 +1,7 @@
 <?php
 $host = "gatepass-mysql.mysql.database.azure.com";
 $dbname = "gatepass_db";  // this should be your database name
-$username = "gatepassadmin@gatepass-mysql";       // default username for XAMPP/WAMP
+$username = "gatepassadmin";       // default username for XAMPP/WAMP
 $password = "Shwh621$21Sihsihqish";           // default password is empty
 
 try {
