@@ -1,0 +1,69 @@
+/* Basic reset */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Container styling */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Page title */
+.page-title {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+/* Styled table */
+.styled-table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    font-size: 16px;
+    min-width: 900px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.styled-table thead tr {
+    background-color: #3498db;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+    border: 1px solid #dddddd;
+}
+
+.styled-table tbody tr {
+    background-color: #ffffff;
+}
+
+.styled-table tbody tr:nth-child(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:hover {
+    background-color: #f1f7ff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .styled-table {
+        font-size: 14px;
+    }
+
+    .page-title {
+        font-size: 24px;
+    }
+}

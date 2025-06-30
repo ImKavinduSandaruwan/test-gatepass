@@ -1,0 +1,83 @@
+/* Card style */
+.request-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(135deg, #dbdbdb, #cee2ff);
+}
+
+/* Header */
+.request-header {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Content area */
+.request-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Columns */
+.left-column,
+.right-column {
+    width: 48%;
+}
+
+.left-column p,
+.right-column p {
+    margin: 6px 0;
+    font-size: 14px;
+}
+
+/* Status badge 
+.status {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.status.pending {
+    background-color: #f0ad4e;
+}
+
+.status.pending_duty_officer {
+    background-color: #fbff00;
+}
+
+.status.rejected {
+    background-color: #d9534f;
+}
+
+.status.verified {
+    background-color: #09c228;
+}*/
+
+/* View button */
+.request-action {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.view-button {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.view-button:hover {
+    background-color: #0056b3;
+}

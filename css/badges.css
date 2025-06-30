@@ -1,0 +1,42 @@
+.status-badge {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    text-transform: capitalize;
+}
+
+.badge-pending {
+    background-color: #ffc107; /* Yellow */
+}
+
+.badge-executive {
+    background-color: #17a2b8; /* Teal */
+}
+
+.badge-verified {
+    background-color: #28a745; /* Green */
+}
+
+.badge-dispatched {
+    background-color: #6f42c1; /* Purple */
+}
+
+.badge-received {
+    background-color: #007bff; /* Blue */
+}
+
+.badge-rejected {
+    background-color: #dc3545; /* Red */
+}
+
+.badge-verified {
+    background-color: #28a745;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
+}

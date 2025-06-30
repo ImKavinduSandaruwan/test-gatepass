@@ -1,0 +1,145 @@
+/* Basic Reset */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #e0eafc, #cfdef3);
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+h2, h3 {
+    color: #2c3e50;
+}
+
+form {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 25px 30px;
+    max-width: 900px;
+    margin: 0 auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="radio"],
+select {
+    width: 100%;
+    padding: 10px 12px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 14px;
+    transition: border-color 0.3s;
+}
+
+.section-box {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 20px 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+}
+
+.section-box h3 {
+    margin-top: 0;
+    color: #34495e;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+select:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+input[type="radio"] {
+    width: auto;
+    margin-right: 8px;
+}
+
+#itemsTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+#itemsTable th,
+#itemsTable td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+#itemsTable th {
+    background-color: #f0f4f8;
+    font-weight: bold;
+}
+
+#addItemBtn,
+.removeItemBtn,
+input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+}
+
+#addItemBtn:hover,
+.removeItemBtn:hover,
+input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+.removeItemBtn {
+    background-color: #e74c3c;
+}
+
+.removeItemBtn:hover {
+    background-color: #c0392b;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#by_person, #by_vehicle {
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #f7f9fa;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+select[name="executive_id"],
+select[name="in_location_id"],
+select[name="out_location_id"] {
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    form {
+        padding: 20px;
+    }
+    #itemsTable th, #itemsTable td {
+        font-size: 12px;
+    }
+}

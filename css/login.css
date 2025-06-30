@@ -1,0 +1,95 @@
+/* ALTERNATIVE LOGIN PAGE */
+.alt-login-body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #001f8f, #004dc9, #007bff);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alt-login-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+
+.alt-login-card {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+.login-logo {
+    width: 120px;
+    margin-bottom: 5px;
+}
+
+.alt-login-card h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333;
+}
+
+.alt-login-subtitle {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.alt-login-card label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555;
+}
+
+.alt-login-card input[type="text"],
+.alt-login-card input[type="password"] {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.alt-login-button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background: linear-gradient(90deg, #0062ff, #0039a6);
+    color: #fff;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.alt-login-button:hover {
+    background: linear-gradient(90deg, #004dc9, #002f8f);
+}
+
+.forgot-link,
+.contact-link {
+    font-size: 12px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.forgot-link:hover,
+.contact-link:hover {
+    text-decoration: underline;
+}
+
+.alt-login-footer {
+    margin-top: 20px;
+    font-size: 13px;
+    color: #666;
+}
